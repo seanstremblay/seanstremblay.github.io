@@ -1,5 +1,3 @@
-/* Developer note: This is the first website I have ever developed, so I can imagine some of the code may be organized in a particularly frustrating way. If you have trouble, it's probably me, not you.*/
-
 html{
     height: 100%;
 }
@@ -32,6 +30,8 @@ nav{
     padding-top: 30px;
     padding-bottom: 30px;
     text-align: center;
+    position: sticky;
+    top: 0;
 }
 
 nav a{
