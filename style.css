@@ -67,13 +67,15 @@ main{
 .map{
     float: left;
     margin-top: 40px;
-    margin-left: 160px;
+    margin-left: 40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .facebook{
     float: right;
     margin-top: 50px;
     margin-right: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .menu-1{
@@ -86,9 +88,9 @@ main{
 
 .red-line{
     background-color: red;
-    width: 400px;
+    width: 200px;
     height: 3px;
-    margin-left: 654px;
+    margin: auto;
 }
 
 .phone-number{
@@ -101,7 +103,8 @@ text-decoration: none;
 }
 
 .menu-page{
-    width: 700px;
+    width: 50%;
+    margin: auto;
 }
 
 /*----------- CAROUSEL SLIDE ANIMATION ----------*/
@@ -162,19 +165,18 @@ text-decoration: none;
 /* ------------- END CAROUSEL ELEMENTS ---------- */
 
 .specials-container{
-    height: 600px;
+    height: 320px;
     width: auto;
     background-color: black;
-    margin-top: 800px;
+    margin-top: 600px;
 }
 
 .drink-specials-container{
-    width: 500px;
-    margin-left: 60px;
+    width: 400px;
+    margin-left: 180px;
     float: left;
     text-align: center;
-    padding-top: 100px;
-    font-size: large;
+    padding-top: 10px;
 }
 
 .drink-specials-container h1{
@@ -183,7 +185,7 @@ text-decoration: none;
 }
 
 .store-info-container{
-    height: 540px;
+    margin-top: none;
     width: auto;
 }
 
@@ -196,9 +198,8 @@ text-decoration: none;
 .home-store-info-subcontainer{
     float: right;
     padding-top: 150px;
-    margin-right: 100px;
+    margin-right: 80px;
     color: black;
-    font-size: large;
 } 
 
 .home-store-info-subcontainer h1{
@@ -220,4 +221,8 @@ footer a{
     padding-right: 15px;
     color: black;
     font-family: 'Bahnschrift';
-    font-size: medium;  
+    font-size: medium; 
+    
+@media only screen and (min-width: 280px) {
+    
+}
