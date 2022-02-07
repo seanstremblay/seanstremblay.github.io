@@ -173,7 +173,7 @@ html{
     }
 
     .drink-specials-container{
-        width: 400px;
+        width: 420px;
         margin-left: 180px;
         float: left;
         text-align: center;
@@ -340,8 +340,6 @@ html{
         background-color: black;
     }
 
-    /* Test Comment */
-
     .drink-specials-container{
         /* width: 250px; */
         margin-top: auto;
@@ -357,6 +355,10 @@ html{
 
     .drink-specials-container p{
         font-size: small;
+    }
+
+    .bold-message{
+        font-size: large;
     }
 
     .store-info-container{
