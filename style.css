@@ -2,6 +2,8 @@ html{
     height: 100%;
 }
 
+
+/* --- Desktop Display ---*/
 @media only screen and (min-width: 1000px) {
     body{
         background-image: url(img/caldo.jpg);
@@ -66,6 +68,7 @@ html{
     }
 
     .map{
+        /* width: auto; */
         float: left;
         margin-top: 40px;
         margin-left: 40px;
@@ -73,6 +76,7 @@ html{
     }
 
     .facebook{
+        display: block;
         float: right;
         margin-top: 50px;
         margin-right: 80px;
@@ -95,8 +99,8 @@ html{
     }
 
     .phone-number{
-    color: whitesmoke;
-    text-decoration: none;
+        color: whitesmoke;
+        text-decoration: none;
     }
 
     .menu{
@@ -166,7 +170,7 @@ html{
     /* ------------- END CAROUSEL ELEMENTS ---------- */
 
     .specials-container{
-        height: 320px;
+        height: 350px;
         width: auto;
         background-color: black;
         margin-top: 600px;
@@ -174,10 +178,12 @@ html{
 
     .drink-specials-container{
         width: 420px;
-        margin-left: 180px;
+        margin-left: 170px;
         float: left;
+        margin-top: none;
         text-align: center;
         padding-top: 10px;
+        font-size: large;
     }
 
     .drink-specials-container h1{
@@ -186,17 +192,18 @@ html{
     }
 
     .bold-message{
-        font-weight: bold; 
         font-size: xx-large;
     }
 
     .store-info-container{
-        margin-top: none;
+        padding-top: 50px;
+        padding-bottom: 50px;
+        height: auto;
         width: auto;
     }
 
     .home-store-info-container{
-        height: 540px;
+        height: 550px;
         width: auto;
         background-color: white;
     }
@@ -229,12 +236,13 @@ html{
         font-family: 'Bahnschrift';
         font-size: medium; 
     }        
-    
 }
 
-@media only screen and (max-width: 420px) {
+/* --- MOBILE + TABLET DISPLAY ---*/
+
+@media only screen and (max-width: 999px) {
     body{
-        /* background-image: url(img/caldo.jpg); */
+        background-image: none;
         background-size: cover;
         background-repeat: no-repeat;
         background-attachment: fixed;
@@ -257,7 +265,7 @@ html{
         padding-bottom: 8px;
         text-align: center;
         /* position: sticky; */
-        top: 0;
+        /* top: 0; */
     }
 
     nav a{
@@ -320,8 +328,8 @@ html{
     }
 
     .phone-number{
-    color: whitesmoke;
-    text-decoration: none;
+        color: whitesmoke;
+        text-decoration: none;
     }
 
     .menu{
@@ -334,14 +342,14 @@ html{
     }
 
     .specials-container{
-        height: auto;
-        width: auto;
+        padding-top: 5px;
+        height: 350px;
         background-color: black;
     }
 
     .drink-specials-container{
-        /* width: 250px; */
-        margin-top: auto;
+        width: 250px;
+        margin: auto;
         text-align: center;
         padding-top: 10px;
         font-size: x-small;
@@ -365,17 +373,22 @@ html{
         padding-bottom: 20px;
         height: 710px;
         width: auto;
+        font-size: large;
     }
 
     .home-store-info-container{
-        height: auto;
+        height: 750px;
         width: auto;
         background-color: white;
     }
 
     .home-store-info-subcontainer{
+        width: 250px;
+        font-size: small;
         padding-top: 8px;
         color: black;
+        text-align: center;
+        margin: auto;
     } 
 
     .home-store-info-subcontainer h1{
@@ -400,3 +413,5 @@ html{
         font-size: x-small; 
     }  
 }
+
+
